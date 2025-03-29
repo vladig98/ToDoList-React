@@ -1,10 +1,9 @@
 import React, { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import "./styles.css";
-import ToDo from "./ToDo";
+import "./styles/styles.css";
+import ToDo from "./components/ToDo";
 
-const root = createRoot(document.getElementById("root"));
-root.render(
+createRoot(document.getElementById("root")).render(
   <StrictMode>
     <ToDo />
   </StrictMode>
